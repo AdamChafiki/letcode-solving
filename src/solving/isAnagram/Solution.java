@@ -1,5 +1,4 @@
-//        inner class / jvm .... / upcastin class / Bufferstring /interface & abstract / enum class / annotation
-//        / anonymous class / THREAD , RUNNABLE / collection API
+package solving.isAnagram;
 
 import java.util.Arrays;
 
@@ -17,13 +16,5 @@ class Solution {
         return sortedString1.equals(sortedString2);
 
 
-    }
-}
-
-
-public class Main {
-    public static void main(String[] args) {
-            Solution solution = new Solution();
-            solution.isAnagram("rat", "car");
     }
 }
